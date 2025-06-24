@@ -1,8 +1,6 @@
 class Solution {
     public String largestOddNumber(String num) {
         String result = "";
-
-        // If the last digit is odd, return the full number
         if ((num.charAt(num.length() - 1) - '0') % 2 != 0) {
             return num;
         } else {
